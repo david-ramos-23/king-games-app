@@ -1,0 +1,67 @@
+@mixin animation($name, $duration, $count, $direction, $function, $fill, $delay) {
+    animation: $name $duration $count $direction $function $fill $delay;
+}
+
+@mixin transit($prop, $speed, $type) {
+    transition: $prop $speed $type;
+}
+
+@mixin transform($prop) {
+    transform: $prop;
+}
+
+@mixin mobile {
+  @media (max-width: #{$mobile-width -  1px}) {
+    @content;
+  }
+}
+
+@mixin tablet-portrait {
+  @media (min-width: #{$mobile-width}) and (max-width: #{$tablet-width - 1px}) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - 1px}) {
+    @content;
+  }
+}
+
+@mixin non-tablet {
+  @media (max-width: #{$tablet-width - 1px}) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: #{$desktop-width}) {
+    @content;
+  }
+}
+
+@mixin non-desktop {
+  @media (max-width: #{$desktop-width - 1px}) {
+    @content;
+  }
+}
+
+@mixin non-large-desktop {
+  @media (max-width: #{$large-desktop-width - 1px}) {
+    @content;
+  }
+}
+
+
+@mixin all() {
+    @media all{
+        @content;
+    }
+}
+
+@mixin other() {
+    @media screen and (min-width: 48em){
+        @content;
+    }
+}
+

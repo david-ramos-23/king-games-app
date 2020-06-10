@@ -1,0 +1,103 @@
+@import './vars/index.scss';
+
+// h1 {
+//     font-size: $em-1_5;
+//     padding: $em-0_5;
+//     text-align: center;
+//     font-weight: $weight-3;
+//     color:$primary-color;
+//     background:rgba(255,255,255,0.4);
+//     border-radius: $border-radius-1;
+//     margin-bottom: $standard-space-4;
+//     box-shadow: $box-shadow-1;
+//   }
+
+//   .u-container {
+//       max-width: $standard-space-96;
+//       margin: 0 auto;
+//       // padding: $standard-space-4 0 0 0;
+//   }
+
+
+  .Header {
+    border-top-left-radius: $border-radius-2;
+    border-top-right-radius: $border-radius-2;
+    box-shadow: $box-shadow-2;
+    position: relative;
+    background-color: $background-color-3;
+//
+    &-main {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+//
+    a {
+      text-decoration: none;
+      color: #15302c;
+    }
+
+
+    // .AccordionTitle {
+    //   display: flex;
+    //   padding: $em-1_5 $em-2;
+    //   font-weight: $weight-7;
+    //   cursor: pointer;
+    //   justify-content: space-between;
+    //   align-items: center;
+
+    //   &:hover {
+    //     background-color: $background-color-2;
+    //   }
+
+    //   &.is-open{
+    //     background-color: $background-color-2;
+
+    //     .Accordion-arrow {
+    //       @include transform(rotate(-180deg));
+    //       @include transit(ease, .3s, transform);
+    //     }
+    //   }
+
+    //   &.is-closed {
+    //     .Accordion-arrow {
+    //       @include transform(rotate(0deg));
+    //       @include transit(ease, .3s, transform);
+    //     }
+    //   }
+    // }
+
+  }
+
+
+  // .AccordionPanel {
+  //   background-color: $background-color-3;
+  //   font-size: $em-1;
+  //   line-height: $em-1_5;
+  //   height: auto;
+  //   overflow: hidden;
+
+  //   > p {
+  //     padding: $em-1 $em-2 $em-1 $em-2;
+  //   }
+
+  //   @include all {
+  //     max-height: $em-50;
+  //     @include transit(ease, 1s, max-height);
+  //   }
+
+  //   @include other {
+  //     max-height: $em-20;
+  //     @include transit(ease, 0.5s, max-height);
+  //   }
+
+  //   &.is-hidden {
+  //     max-height: 0;
+  //     @include animation(acc_out, 0.75s, 1, alternate, ease-in-out, both, 0s);
+  //   }
+
+  //   &.is-active{
+  //     @include animation(acc_in, 0.65s, 1, normal, ease-in-out, both, 0s);
+  //   }
+
+  // }
