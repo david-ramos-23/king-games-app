@@ -1,16 +1,15 @@
-import { getGames, addGame } from '../services/games'
-import { clearnSearch } from '../services/router'
-import fav from './../assets/img/heart-solid.svg'
+import { getFavGames, removeGame } from '../services/games'
+import remove from './../assets/img/trash-solid.svg'
 
 const handleEventListener = async () => {
   const gameButtons = document.querySelectorAll('.Games-actions')
 
   gameButtons.forEach((game) => {
-    game.addEventListener('click', addGame)
+    game.addEventListener('click', removeGame)
   })
 
   const search = document.getElementById('search')
-  search.addEventListener('input', searchGames)
+  search.addEventListener('input', searchFavGames)
 }
 
 const addToDOM = (games) => {
@@ -32,7 +31,7 @@ const addToDOM = (games) => {
                   <span>${game.name}</span>
                   <div class="Games-actions">
                     <button class="Games-button" type="submit" data-id="${game.id}" data-name="${game.name}" data-short="${game.short}" data-image="${game.image}" >
-                      <img src="${fav}" alt="fav">
+                      <img src="${remove}" alt="fav">
                     </button>
 
                   </div>
@@ -58,48 +57,53 @@ const addToDOM = (games) => {
   }
 }
 
-const searchGames = async (e) => {
+const searchFavGames = async (e) => {
   const search = document.getElementById('search')
 
-  const games = await getGames(search.value)
+  const games = await getFavGames(search.value)
   addToDOM(games)
 }
 
-const Home = {
+const Favourites = {
   render: async () => {
-    let games = await getGames()
-    let view = /*html*/ `
-      <div class="Games">
-        ${games
-          .map(
-            (game, index) =>
-              `
-            <article class="Games-item">
-              <a href="#/${game.id}/">
-                <img class="Games-image" src="${game.image}" alt="${game.name}">
-                <h2>
-                  <span>${game.name}</span>
-                  <div class="Games-actions">
-                    <button class="Games-button" type="submit" data-id="${game.id}" data-name="${game.name}" data-short="${game.short}" data-image="${game.image}" >
-                      <img src="${fav}" alt="fav">
-                    </button>
-                  </div>
-                </h2>
-              </a>
-            </article>
-          `
-          )
-          .join('')}
-      </div>
-    `
+    let view = ` <div class="NoResults"> You don't have any Favourite Game!</div>`
+    const games = await getFavGames()
+
+    games.length > 0
+      ? (view = `
+          <div class="Games">
+          ${games
+            .map(
+              (game, index) =>
+                `
+              <article class="Games-item">
+                <a href="#/${game.id}/">
+                  <img class="Games-image" src="${game.image}" alt="${game.name}">
+                  <h2>
+                    <span>${game.name}</span>
+                    <div class="Games-actions">
+                      <button class="Games-button" type="submit" data-id="${game.id}" data-name="${game.name}" data-short="${game.short}" data-image="${game.image}" >
+                        <img src="${remove}" alt="fav">
+                      </button>
+
+                    </div>
+                  </h2>
+                </a>
+
+              </article>
+            `
+            )
+            .join('')}
+        </div>
+        `)
+      : view
+
     return view
   },
-  // All the code related to DOM interactions and controls go in here.
-  // This is a separate call as these can be registered only after the DOM has been painted
   after_render: async () => {
     await handleEventListener()
-    clearnSearch()
+    // clearnSearch()
   },
 }
 
-export default Home
+export default Favourites

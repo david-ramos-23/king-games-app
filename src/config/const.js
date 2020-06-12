@@ -1,5 +1,5 @@
-export const API_URL = 'http://localhost:3000/games';
-export const KING_API_URL = 'http://royal1.midasplayer.com/images/games/'
+export const API_URL = 'http://localhost:3000/games'
+export const KING_API_URL = 'http://www.royalgames.com/images/games/'
 
 // Game screenshots:
 // http://royal1.midasplayer.com/images/games/[game_shortname]/dumps/screen_[game_shortname].gif

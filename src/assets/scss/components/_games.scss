@@ -1,0 +1,129 @@
+@import './vars/index.scss';
+
+.Games {
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: $rem-1_5;
+  grid-row-gap: $rem-1_5;
+  display: grid;
+
+  &-inner {
+    grid-template-rows: auto;
+    grid-gap: $rem-1_5;
+    grid-row-gap: $rem-1_5;
+    display: grid;
+  }
+
+  &-card {
+    text-decoration: none;
+    box-shadow: $box-shadow-games;
+    border-radius: $border-radius-5;
+    margin: 0 0 $standard-space-20 0;
+    display: flex;
+    flex-direction: row;
+    animation-duration: 2s;
+    animation-name: fadeIn;
+
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: $border-radius-5 $border-radius-5 0 0;
+    }
+
+    h2 {
+      font-size: $standard-space-18;
+      font-weight: $weight-4;
+      text-align: center;
+    }
+
+    .Games-actions {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+
+      .Games-button {
+        @include gamesButton(
+          $button-games,
+          $button-games,
+          $standard-space-10,
+          $standard-space-16,
+          $em-4
+        );
+
+        > * {
+          pointer-events: none;
+        }
+
+        &:hover {
+          opacity: $opacity-0_7;
+        }
+
+        &:active {
+          opacity: $opacity-0_7;
+          @include transform(translateY($standard-space-4));
+        }
+      }
+    }
+  }
+
+  &-item {
+    text-decoration: none;
+    box-shadow: $box-shadow-games;
+    border-radius: $standard-space-10;
+    margin: 0 0 $standard-space-20 0;
+    display: flex;
+    flex-direction: column;
+    animation-duration: 2s;
+    animation-name: fadeIn;
+
+    .Games-image {
+      display: block;
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+      border-top-left-radius: $standard-space-10;
+      border-top-right-radius: $standard-space-10;
+    }
+    h2 {
+      flex: 1;
+      font-size: $standard-space-18;
+      font-weight: $weight-3;
+      padding: $standard-space-5 $standard-space-10;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      span {
+        &:hover,
+        &:active {
+          color: $primary-color;
+          opacity: $opacity-0_7;
+        }
+      }
+    }
+
+    a {
+      text-decoration: none;
+      color: $text-color;
+      display: contents;
+    }
+    .Games-actions {
+      display: flex;
+      .Games-button {
+        @include gamesButton(
+          $button-games,
+          $button-games,
+          $standard-space-10,
+          $standard-space-16,
+          $em-3
+        );
+
+        > * {
+          pointer-events: none;
+        }
+        &:hover {
+          opacity: $opacity-0_7;
+        }
+      }
+    }
+  }
+}

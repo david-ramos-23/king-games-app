@@ -1,13 +1,31 @@
-@mixin animation($name, $duration, $count, $direction, $function, $fill, $delay) {
-    animation: $name $duration $count $direction $function $fill $delay;
+@mixin gamesButton($bg-color, $color, $padding, $font-size, $size) {
+  background-color: $bg-color;
+  color: $color;
+  padding: $padding;
+  font-size: $font-size;
+  width: $size;
+  border: none;
+  cursor: pointer;
+}
+
+@mixin animation(
+  $name,
+  $duration,
+  $count,
+  $direction,
+  $function,
+  $fill,
+  $delay
+) {
+  animation: $name $duration $count $direction $function $fill $delay;
 }
 
 @mixin transit($prop, $speed, $type) {
-    transition: $prop $speed $type;
+  transition: $prop $speed $type;
 }
 
 @mixin transform($prop) {
-    transform: $prop;
+  transform: $prop;
 }
 
 @mixin mobile {
@@ -52,16 +70,14 @@
   }
 }
 
-
 @mixin all() {
-    @media all{
-        @content;
-    }
+  @media all {
+    @content;
+  }
 }
 
 @mixin other() {
-    @media screen and (min-width: 48em){
-        @content;
-    }
+  @media screen and (min-width: 48em) {
+    @content;
+  }
 }
-

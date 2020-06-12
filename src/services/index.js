@@ -1,12 +1,2 @@
-
-export {
-  default as getGames
-} from './getGames';
-
-export {
-  default as getHash
-} from './getHash'
-
-export {
-  default as resolveRoutes
-} from './resolveRoutes'
+export { getGames, getImages, getFavGames, getGame, addGame } from './games'
+export { resolveRoutes, getHash, getSearch, clearnSearch } from './router'

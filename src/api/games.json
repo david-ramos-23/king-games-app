@@ -1,6 +1,7 @@
 {
   "games": [
     {
+      "id": 1,
       "name": "8-Ball Pool",
       "short": "eightballpool",
       "url": "/spel/sportspel/8-ball-pool/?language\u003dsv",
@@ -8,6 +9,7 @@
       "hasBoosters": false
     },
     {
+      "id": 2,
       "name": "9-Ball Pool",
       "short": "nineballpool",
       "url": "/spel/sportspel/9-ball-pool/?language\u003dsv",
@@ -15,6 +17,7 @@
       "hasBoosters": false
     },
     {
+      "id": 3,
       "name": "Abracadabra",
       "short": "abracadabra",
       "url": "/spel/strategispel/abracadabra/?language\u003dsv",
@@ -22,6 +25,7 @@
       "hasBoosters": false
     },
     {
+      "id": 4,
       "name": "Ace Solitaire",
       "short": "acesolitaire",
       "url": "/spel/kortspel/ace-solitaire/?language\u003dsv",
@@ -29,6 +33,7 @@
       "hasBoosters": false
     },
     {
+      "id": 5,
       "name": "African Rainmaker",
       "short": "african_rainmaker",
       "url": "/spel/pusselspel/african-rainmaker/?language\u003dsv",
@@ -36,6 +41,7 @@
       "hasBoosters": false
     },
     {
+      "id": 6,
       "name": "Ali Baba",
       "short": "ali_baba",
       "url": "/spel/kortspel/ali-baba/?language\u003dsv",
@@ -43,6 +49,7 @@
       "hasBoosters": false
     },
     {
+      "id": 7,
       "name": "Amazon Speed",
       "short": "amazon_survival_speed",
       "url": "/spel/pusselspel/amazon-speed/?language\u003dsv",
@@ -50,6 +57,7 @@
       "hasBoosters": false
     },
     {
+      "id": 8,
       "name": "Amazon Survival",
       "short": "amazon_survival",
       "url": "/spel/pusselspel/amazon-survival/?language\u003dsv",
@@ -57,6 +65,7 @@
       "hasBoosters": false
     },
     {
+      "id": 9,
       "name": "Animal Parade",
       "short": "animal_parade",
       "url": "/spel/strategispel/animal-parade/?language\u003dsv",
@@ -64,6 +73,7 @@
       "hasBoosters": false
     },
     {
+      "id": 10,
       "name": "Aztec Drop",
       "short": "aztecdrop",
       "url": "/spel/strategispel/aztec-drop/?language\u003dsv",
@@ -71,6 +81,7 @@
       "hasBoosters": false
     },
     {
+      "id": 11,
       "name": "Backgammon",
       "short": "backgammon",
       "url": "/spel/strategispel/backgammon/?language\u003dsv",
@@ -78,6 +89,7 @@
       "hasBoosters": false
     },
     {
+      "id": 12,
       "name": "Bacteria Hysteria",
       "short": "bacteriahysteria",
       "url": "/spel/pusselspel/bacteria-hysteria/?language\u003dsv",
@@ -85,6 +97,7 @@
       "hasBoosters": false
     },
     {
+      "id": 13,
       "name": "BB Bathtub",
       "short": "bbbathtub",
       "url": "/spel/actionspel/bb-bathtub/?language\u003dsv",
@@ -92,6 +105,7 @@
       "hasBoosters": false
     },
     {
+      "id": 14,
       "name": "Big Bang",
       "short": "bigbang",
       "url": "/spel/strategispel/big-bang/?language\u003dsv",
@@ -99,6 +113,7 @@
       "hasBoosters": false
     },
     {
+      "id": 15,
       "name": "Block Party",
       "short": "block_party",
       "url": "/spel/pusselspel/block-party/?language\u003dsv",
@@ -106,6 +121,7 @@
       "hasBoosters": false
     },
     {
+      "id": 16,
       "name": "Bomp Bomp",
       "short": "bompbomp",
       "url": "/spel/pusselspel/bomp-bomp/?language\u003dsv",
@@ -113,6 +129,7 @@
       "hasBoosters": false
     },
     {
+      "id": 17,
       "name": "Bomp Bomp Party",
       "short": "bomp_bomp_party",
       "url": "/spel/pusselspel/bomp-bomp-party/?language\u003dsv",
@@ -120,6 +137,7 @@
       "hasBoosters": false
     },
     {
+      "id": 18,
       "name": "Boneyard Bonanza",
       "short": "boneyard_bonanza",
       "url": "/spel/strategispel/boneyard-bonanza/?language\u003dsv",
@@ -127,6 +145,7 @@
       "hasBoosters": false
     },
     {
+      "id": 19,
       "name": "Brain Game",
       "short": "braingame",
       "url": "/spel/strategispel/braingame/?language\u003dsv",
@@ -134,6 +153,7 @@
       "hasBoosters": false
     },
     {
+      "id": 20,
       "name": "Bric-a-Brac",
       "short": "bric_a_brac",
       "url": "/spel/strategispel/bric-a-brac/?language\u003dsv",
@@ -141,6 +161,7 @@
       "hasBoosters": false
     },
     {
+      "id": 21,
       "name": "Brick Busterz",
       "short": "demolitiongame",
       "url": "/spel/pusselspel/brick-busterz/?language\u003dsv",
@@ -148,6 +169,7 @@
       "hasBoosters": false
     },
     {
+      "id": 22,
       "name": "Briscola King",
       "short": "briscolaking",
       "url": "/spel/kortspel/briscola-king/?language\u003dsv",
@@ -155,6 +177,7 @@
       "hasBoosters": false
     },
     {
+      "id": 23,
       "name": "Bubble Saga",
       "short": "love_me_love_me_not",
       "url": "/spel/actionspel/bubble-saga/?language\u003dsv",
@@ -162,6 +185,7 @@
       "hasBoosters": false
     },
     {
+      "id": 24,
       "name": "Bubble Witch",
       "short": "bubble_witch",
       "url": "/spel/pusselspel/bubble-witch/?language\u003dsv",
@@ -169,6 +193,7 @@
       "hasBoosters": false
     },
     {
+      "id": 25,
       "name": "Candy Crush",
       "short": "candycrush",
       "url": "/spel/pusselspel/candy-crush/?language\u003dsv",
@@ -176,6 +201,7 @@
       "hasBoosters": false
     },
     {
+      "id": 26,
       "name": "Carnival Shootout",
       "short": "carnivalshootout",
       "url": "/spel/actionspel/carnival-shootout/?language\u003dsv",
@@ -183,6 +209,7 @@
       "hasBoosters": false
     },
     {
+      "id": 27,
       "name": "Cat Corner",
       "short": "catcorner",
       "url": "/spel/strategispel/cat-corner/?language\u003dsv",
@@ -190,6 +217,7 @@
       "hasBoosters": false
     },
     {
+      "id": 28,
       "name": "Chain Reaction",
       "short": "chain_reaction",
       "url": "/spel/pusselspel/chain-reaction/?language\u003dsv",
@@ -197,6 +225,7 @@
       "hasBoosters": false
     },
     {
+      "id": 29,
       "name": "Circus Surprise",
       "short": "circussurprise",
       "url": "/spel/pusselspel/circus-surprise/?language\u003dsv",
@@ -204,6 +233,7 @@
       "hasBoosters": false
     },
     {
+      "id": 30,
       "name": "Cookie Rookie",
       "short": "cookierookie",
       "url": "/spel/strategispel/cookie-rookie/?language\u003dsv",
@@ -211,6 +241,7 @@
       "hasBoosters": false
     },
     {
+      "id": 31,
       "name": "Crescendo Catcher",
       "short": "crescendo_catcher",
       "url": "/spel/pusselspel/crescendo-catcher/?language\u003dsv",
@@ -218,6 +249,7 @@
       "hasBoosters": false
     },
     {
+      "id": 32,
       "name": "Crescendo Tempo",
       "short": "crescendo_catcher_tempo",
       "url": "/spel/pusselspel/crescendo-tempo/?language\u003dsv",
@@ -225,6 +257,7 @@
       "hasBoosters": false
     },
     {
+      "id": 33,
       "name": "Croco Loco",
       "short": "croco_loco",
       "url": "/spel/pusselspel/croco-loco/?language\u003dsv",
@@ -232,6 +265,7 @@
       "hasBoosters": false
     },
     {
+      "id": 34,
       "name": "Daisy Defender",
       "short": "daisy_defender",
       "url": "/spel/actionspel/daisy-defender/?language\u003dsv",
@@ -239,6 +273,7 @@
       "hasBoosters": false
     },
     {
+      "id": 35,
       "name": "Dart Duel",
       "short": "dart",
       "url": "/spel/sportspel/dart-duel/?language\u003dsv",
@@ -246,6 +281,7 @@
       "hasBoosters": false
     },
     {
+      "id": 36,
       "name": "Diamond Digger",
       "short": "diamond_digger",
       "url": "/spel/pusselspel/diamond-digger/?language\u003dsv",
@@ -253,6 +289,7 @@
       "hasBoosters": false
     },
     {
+      "id": 37,
       "name": "Dice King",
       "short": "dice_king",
       "url": "/spel/strategispel/dice-king/?language\u003dsv",
@@ -260,6 +297,7 @@
       "hasBoosters": false
     },
     {
+      "id": 38,
       "name": "Fairy Solitairy",
       "short": "fairysolitairy",
       "url": "/spel/kortspel/fairy-solitairy/?language\u003dsv",
@@ -267,6 +305,7 @@
       "hasBoosters": false
     },
     {
+      "id": 39,
       "name": "Farm King",
       "short": "farm_king",
       "url": "/spel/pusselspel/farm-king/?language\u003dsv",
@@ -274,6 +313,7 @@
       "hasBoosters": false
     },
     {
+      "id": 40,
       "name": "Fia med knuff",
       "short": "ludo",
       "url": "/spel/strategispel/fia-med-knuff/?language\u003dsv",
@@ -281,6 +321,7 @@
       "hasBoosters": false
     },
     {
+      "id": 41,
       "name": "Flash Diamond",
       "short": "flash_diamond",
       "url": "/spel/pusselspel/flash-diamond/?language\u003dsv",
@@ -288,6 +329,7 @@
       "hasBoosters": false
     },
     {
+      "id": 42,
       "name": "Four Seasons",
       "short": "fourseasons",
       "url": "/spel/pusselspel/four-seasons/?language\u003dsv",
@@ -295,6 +337,7 @@
       "hasBoosters": false
     },
     {
+      "id": 43,
       "name": "Freecell",
       "short": "freecell",
       "url": "/spel/kortspel/freecell/?language\u003dsv",
@@ -302,6 +345,7 @@
       "hasBoosters": false
     },
     {
+      "id": 44,
       "name": "Gin Rummy",
       "short": "gin_rummy",
       "url": "/spel/kortspel/gin-rummy/?language\u003dsv",
@@ -309,6 +353,7 @@
       "hasBoosters": false
     },
     {
+      "id": 45,
       "name": "GoGo 21",
       "short": "gogo21",
       "url": "/spel/kortspel/gogo-21/?language\u003dsv",
@@ -316,6 +361,7 @@
       "hasBoosters": false
     },
     {
+      "id": 46,
       "name": "Goldfish Bowl",
       "short": "goldfishbowl",
       "url": "/spel/actionspel/goldfish-bowl/?language\u003dsv",
@@ -323,6 +369,7 @@
       "hasBoosters": false
     },
     {
+      "id": 47,
       "name": "Golf Solitaire",
       "short": "golf_solitaire",
       "url": "/spel/kortspel/golf-solitaire/?language\u003dsv",
@@ -330,6 +377,7 @@
       "hasBoosters": false
     },
     {
+      "id": 48,
       "name": "Gospo\u0027s Adventure",
       "short": "gosposadventure",
       "url": "/spel/strategispel/gosposadventure/?language\u003dsv",
@@ -337,6 +385,7 @@
       "hasBoosters": false
     },
     {
+      "id": 49,
       "name": "Graceful Jewels",
       "short": "graceful_jewels",
       "url": "/spel/actionspel/graceful-jewels/?language\u003dsv",
@@ -344,6 +393,7 @@
       "hasBoosters": false
     },
     {
+      "id": 50,
       "name": "Hearts",
       "short": "hearts",
       "url": "/spel/kortspel/hearts/?language\u003dsv",
@@ -351,6 +401,7 @@
       "hasBoosters": false
     },
     {
+      "id": 51,
       "name": "Hens\u0027 Defense",
       "short": "hens_defense",
       "url": "/spel/strategispel/hens-defense/?language\u003dsv",
@@ -358,6 +409,7 @@
       "hasBoosters": false
     },
     {
+      "id": 52,
       "name": "Hex Combo",
       "short": "hexcombo",
       "url": "/spel/strategispel/hex-combo/?language\u003dsv",
@@ -365,6 +417,7 @@
       "hasBoosters": false
     },
     {
+      "id": 53,
       "name": "Hidden Stories",
       "short": "hiddenstories",
       "url": "/spel/strategispel/hidden-stories/?language\u003dsv",
@@ -372,6 +425,7 @@
       "hasBoosters": false
     },
     {
+      "id": 54,
       "name": "Honey Combo",
       "short": "honeycombo",
       "url": "/spel/kortspel/honey-combo/?language\u003dsv",
@@ -379,6 +433,7 @@
       "hasBoosters": false
     },
     {
+      "id": 55,
       "name": "Hoop de Loop",
       "short": "hoopdeloop",
       "url": "/spel/actionspel/hoop-de-loop/?language\u003dsv",
@@ -386,6 +441,7 @@
       "hasBoosters": false
     },
     {
+      "id": 56,
       "name": "Hungry Animals",
       "short": "hungryanimals",
       "url": "/spel/actionspel/hungry-animals/?language\u003dsv",
@@ -393,6 +449,7 @@
       "hasBoosters": false
     },
     {
+      "id": 57,
       "name": "I Love Treasure",
       "short": "ilovetreasure",
       "url": "/spel/pusselspel/i-love-treasure/?language\u003dsv",
@@ -400,6 +457,7 @@
       "hasBoosters": false
     },
     {
+      "id": 58,
       "name": "I Scream Ice Cream",
       "short": "iscream",
       "url": "/spel/pusselspel/i-scream-ice-cream/?language\u003dsv",
@@ -407,6 +465,7 @@
       "hasBoosters": false
     },
     {
+      "id": 59,
       "name": "Itsy Bitsy Spider",
       "short": "itsybitsyspider",
       "url": "/spel/actionspel/itsy-bitsy-spider/?language\u003dsv",
@@ -414,6 +473,7 @@
       "hasBoosters": false
     },
     {
+      "id": 60,
       "name": "Jelly Swelly",
       "short": "jelly_swelly",
       "url": "/spel/pusselspel/jelly-swelly/?language\u003dsv",
@@ -421,6 +481,7 @@
       "hasBoosters": false
     },
     {
+      "id": 61,
       "name": "Jungle Bubble",
       "short": "jungle_bubble",
       "url": "/spel/pusselspel/jungle-bubble/?language\u003dsv",
@@ -428,6 +489,7 @@
       "hasBoosters": false
     },
     {
+      "id": 62,
       "name": "Jungle Rumble",
       "short": "junglerumble",
       "url": "/spel/pusselspel/jungle-rumble/?language\u003dsv",
@@ -435,6 +497,7 @@
       "hasBoosters": false
     },
     {
+      "id": 63,
       "name": "Jungle Speed",
       "short": "jungle_bubble_speed",
       "url": "/spel/pusselspel/jungle-speed/?language\u003dsv",
@@ -442,6 +505,7 @@
       "hasBoosters": false
     },
     {
+      "id": 64,
       "name": "Kalorie King",
       "short": "kalorie_king",
       "url": "/spel/actionspel/kalorie-king/?language\u003dsv",
@@ -449,6 +513,7 @@
       "hasBoosters": false
     },
     {
+      "id": 65,
       "name": "Katana Kaunto",
       "short": "katana",
       "url": "/spel/pusselspel/katana-kaunto/?language\u003dsv",
@@ -456,6 +521,7 @@
       "hasBoosters": false
     },
     {
+      "id": 66,
       "name": "Keyword",
       "short": "keyword",
       "url": "/spel/ordspel/keyword/?language\u003dsv",
@@ -463,6 +529,7 @@
       "hasBoosters": false
     },
     {
+      "id": 67,
       "name": "King of Hearts",
       "short": "hearts2012",
       "url": "/spel/kortspel/king-of-hearts/?language\u003dsv",
@@ -470,6 +537,7 @@
       "hasBoosters": false
     },
     {
+      "id": 68,
       "name": "King of Spades",
       "short": "spades2012",
       "url": "/spel/kortspel/king-of-spades/?language\u003dsv",
@@ -477,6 +545,7 @@
       "hasBoosters": false
     },
     {
+      "id": 69,
       "name": "King Pin Bowling",
       "short": "bowling",
       "url": "/spel/sportspel/king-pin-bowling/?language\u003dsv",
@@ -484,6 +553,7 @@
       "hasBoosters": false
     },
     {
+      "id": 70,
       "name": "Kitty Boom",
       "short": "kittyboom",
       "url": "/spel/actionspel/kitty-boom/?language\u003dsv",
@@ -491,6 +561,7 @@
       "hasBoosters": false
     },
     {
+      "id": 71,
       "name": "Klick, Klack \u0026 Roll",
       "short": "klickklackroll",
       "url": "/spel/pusselspel/klick-klack-roll/?language\u003dsv",
@@ -498,6 +569,7 @@
       "hasBoosters": false
     },
     {
+      "id": 72,
       "name": "Klicker Fusion",
       "short": "klickerklacker2",
       "url": "/spel/pusselspel/klicker-fusion/?language\u003dsv",
@@ -505,6 +577,7 @@
       "hasBoosters": false
     },
     {
+      "id": 73,
       "name": "Letter Star",
       "short": "letterstar",
       "url": "/spel/ordspel/letter-star/?language\u003dsv",
@@ -512,6 +585,7 @@
       "hasBoosters": false
     },
     {
+      "id": 74,
       "name": "Letter Swap",
       "short": "letter_swap",
       "url": "/spel/ordspel/letter-swap/?language\u003dsv",
@@ -519,6 +593,7 @@
       "hasBoosters": false
     },
     {
+      "id": 75,
       "name": "Luxor",
       "short": "luxor",
       "url": "/spel/actionspel/luxor/?language\u003dsv",
@@ -526,6 +601,7 @@
       "hasBoosters": false
     },
     {
+      "id": 76,
       "name": "Magic Spinball",
       "short": "magicspinball",
       "url": "/spel/actionspel/magic-spinball/?language\u003dsv",
@@ -533,6 +609,7 @@
       "hasBoosters": false
     },
     {
+      "id": 77,
       "name": "Mahjong Golden Path",
       "short": "mahjong_golden_path",
       "url": "/spel/strategispel/mahjong-golden-path/?language\u003dsv",
@@ -540,6 +617,7 @@
       "hasBoosters": false
     },
     {
+      "id": 78,
       "name": "Mahjong Masquerade",
       "short": "mahjongmasquerade",
       "url": "/spel/strategispel/mahjong-masquerade/?language\u003dsv",
@@ -547,6 +625,7 @@
       "hasBoosters": false
     },
     {
+      "id": 79,
       "name": "Mahjong Treasure",
       "short": "mahjongtreasure",
       "url": "/spel/strategispel/mahjong-treasure/?language\u003dsv",
@@ -554,6 +633,7 @@
       "hasBoosters": false
     },
     {
+      "id": 80,
       "name": "Mahjong Wonderwall",
       "short": "mahjong_wonderwall",
       "url": "/spel/strategispel/mahjong-wonderwall/?language\u003dsv",
@@ -561,6 +641,7 @@
       "hasBoosters": false
     },
     {
+      "id": 81,
       "name": "Masquerade Maze",
       "short": "masquerade_maze",
       "url": "/spel/strategispel/masquerade-maze/?language\u003dsv",
@@ -568,6 +649,7 @@
       "hasBoosters": false
     },
     {
+      "id": 82,
       "name": "Match Blocks Speedtrap",
       "short": "matchblocks_speed_trap",
       "url": "/spel/pusselspel/match-blocks-speed-trap/?language\u003dsv",
@@ -575,6 +657,7 @@
       "hasBoosters": false
     },
     {
+      "id": 83,
       "name": "Midas Mahjong",
       "short": "mahjong",
       "url": "/spel/strategispel/midas-mahjong/?language\u003dsv",
@@ -582,6 +665,7 @@
       "hasBoosters": false
     },
     {
+      "id": 84,
       "name": "Midas Miner",
       "short": "miner",
       "url": "/spel/pusselspel/midas-miner/?language\u003dsv",
@@ -589,6 +673,7 @@
       "hasBoosters": false
     },
     {
+      "id": 85,
       "name": "Midas Solitaire",
       "short": "solitaire",
       "url": "/spel/kortspel/midas-solitaire/?language\u003dsv",
@@ -596,6 +681,7 @@
       "hasBoosters": false
     },
     {
+      "id": 86,
       "name": "Miner Speed",
       "short": "midas_miner_speed",
       "url": "/spel/pusselspel/miner-speed/?language\u003dsv",
@@ -603,6 +689,7 @@
       "hasBoosters": false
     },
     {
+      "id": 87,
       "name": "Model Studio",
       "short": "topmodel",
       "url": "/spel/strategispel/model-studio/?language\u003dsv",
@@ -610,6 +697,7 @@
       "hasBoosters": false
     },
     {
+      "id": 88,
       "name": "Monkey Quest",
       "short": "monkey_quest",
       "url": "/spel/pusselspel/monkey-quest/?language\u003dsv",
@@ -617,6 +705,7 @@
       "hasBoosters": false
     },
     {
+      "id": 89,
       "name": "Orchido ",
       "short": "orchido",
       "url": "/spel/pusselspel/orchido-/?language\u003dsv",
@@ -624,6 +713,7 @@
       "hasBoosters": false
     },
     {
+      "id": 90,
       "name": "Papa Pear",
       "short": "papa_pear",
       "url": "/spel/actionspel/papa-pear/?language\u003dsv",
@@ -631,6 +721,7 @@
       "hasBoosters": false
     },
     {
+      "id": 91,
       "name": "Pepper Panic",
       "short": "pepperpanic",
       "url": "/spel/pusselspel/pepper-panic/?language\u003dsv",
@@ -638,6 +729,7 @@
       "hasBoosters": false
     },
     {
+      "id": 92,
       "name": "Pet Rescue",
       "short": "pet_rescue",
       "url": "/spel/pusselspel/pet-rescue/?language\u003dsv",
@@ -645,6 +737,7 @@
       "hasBoosters": false
     },
     {
+      "id": 93,
       "name": "Polar Bear Bounce",
       "short": "polarbearbounce",
       "url": "/spel/actionspel/polar-bear-bounce/?language\u003dsv",
@@ -652,6 +745,7 @@
       "hasBoosters": false
     },
     {
+      "id": 94,
       "name": "Pool King",
       "short": "poolking",
       "url": "/spel/sportspel/pool-king/?language\u003dsv",
@@ -659,6 +753,7 @@
       "hasBoosters": false
     },
     {
+      "id": 95,
       "name": "Pop Painter",
       "short": "poppainter",
       "url": "/spel/actionspel/pop-painter/?language\u003dsv",
@@ -666,6 +761,7 @@
       "hasBoosters": false
     },
     {
+      "id": 96,
       "name": "Princess Peony",
       "short": "princess_peony",
       "url": "/spel/strategispel/princess-peony/?language\u003dsv",
@@ -673,6 +769,7 @@
       "hasBoosters": false
     },
     {
+      "id": 97,
       "name": "Puzzle Mana",
       "short": "puzzle_mana",
       "url": "/spel/pusselspel/puzzle-mana/?language\u003dsv",
@@ -680,6 +777,7 @@
       "hasBoosters": false
     },
     {
+      "id": 98,
       "name": "Pyramid",
       "short": "pyramid2010",
       "url": "/spel/kortspel/Pyramid/?language\u003dsv",
@@ -687,6 +785,7 @@
       "hasBoosters": false
     },
     {
+      "id": 99,
       "name": "Pyramid Quest",
       "short": "pyramid_quest",
       "url": "/spel/kortspel/pyramid-quest/?language\u003dsv",
@@ -694,6 +793,7 @@
       "hasBoosters": false
     },
     {
+      "id": 100,
       "name": "Pyramid Speed",
       "short": "pyramidspeed",
       "url": "/spel/kortspel/pyramid-speed/?language\u003dsv",
@@ -701,6 +801,7 @@
       "hasBoosters": false
     },
     {
+      "id": 101,
       "name": "Quiz Queen",
       "short": "quizqueen",
       "url": "/spel/ordspel/quiz-queen/?language\u003dsv",
@@ -708,6 +809,7 @@
       "hasBoosters": false
     },
     {
+      "id": 102,
       "name": "Rainbow Rescue",
       "short": "rainbowrescue",
       "url": "/spel/pusselspel/rainbow-rescue/?language\u003dsv",
@@ -715,6 +817,7 @@
       "hasBoosters": false
     },
     {
+      "id": 103,
       "name": "Royale 55",
       "short": "royale55",
       "url": "/spel/kortspel/royale-55/?language\u003dsv",
@@ -722,6 +825,7 @@
       "hasBoosters": false
     },
     {
+      "id": 104,
       "name": "Scopa King",
       "short": "scopa",
       "url": "/spel/kortspel/scopa-king/?language\u003dsv",
@@ -729,6 +833,7 @@
       "hasBoosters": false
     },
     {
+      "id": 105,
       "name": "Scrapbook Detective",
       "short": "scrapbook_detective",
       "url": "/spel/strategispel/scrapbook-detective/?language\u003dsv",
@@ -736,6 +841,7 @@
       "hasBoosters": false
     },
     {
+      "id": 106,
       "name": "Seashell Speed",
       "short": "seashell_speed",
       "url": "/spel/pusselspel/seashell-speed/?language\u003dsv",
@@ -743,6 +849,7 @@
       "hasBoosters": false
     },
     {
+      "id": 107,
       "name": "Seashell Squeeze",
       "short": "seashell",
       "url": "/spel/pusselspel/seashell-squeeze/?language\u003dsv",
@@ -750,6 +857,7 @@
       "hasBoosters": false
     },
     {
+      "id": 108,
       "name": "Silver Screen",
       "short": "silverscreen",
       "url": "/spel/pusselspel/silver-screen/?language\u003dsv",
@@ -757,6 +865,7 @@
       "hasBoosters": false
     },
     {
+      "id": 109,
       "name": "Solitaire Swing",
       "short": "solitaire_swing",
       "url": "/spel/kortspel/solitaire-swing/?language\u003dsv",
@@ -764,6 +873,7 @@
       "hasBoosters": false
     },
     {
+      "id": 110,
       "name": "Spider King",
       "short": "spider_king",
       "url": "/spel/kortspel/spider-king/?language\u003dsv",
@@ -771,6 +881,7 @@
       "hasBoosters": false
     },
     {
+      "id": 111,
       "name": "Storm Chaser",
       "short": "storm_chaser",
       "url": "/spel/pusselspel/storm-chaser/?language\u003dsv",
@@ -778,6 +889,7 @@
       "hasBoosters": false
     },
     {
+      "id": 112,
       "name": "Sudoku Sweep",
       "short": "sudokusweep",
       "url": "/spel/strategispel/sudoku-sweep/?language\u003dsv",
@@ -785,6 +897,7 @@
       "hasBoosters": false
     },
     {
+      "id": 113,
       "name": "Top Ace",
       "short": "top_ace",
       "url": "/spel/kortspel/top-ace/?language\u003dsv",
@@ -792,6 +905,7 @@
       "hasBoosters": false
     },
     {
+      "id": 114,
       "name": "Twist Me Silly",
       "short": "twist_me_silly",
       "url": "/spel/pusselspel/twist-me-silly/?language\u003dsv",
@@ -799,6 +913,7 @@
       "hasBoosters": false
     },
     {
+      "id": 115,
       "name": "Word Battle",
       "short": "wordbattle",
       "url": "/spel/ordspel/word-battle/?language\u003dsv",
@@ -806,6 +921,7 @@
       "hasBoosters": false
     },
     {
+      "id": 116,
       "name": "Word Link",
       "short": "wordlink",
       "url": "/spel/ordspel/word-link/?language\u003dsv",
@@ -813,6 +929,7 @@
       "hasBoosters": false
     },
     {
+      "id": 117,
       "name": "Word Seance",
       "short": "wordseance",
       "url": "/spel/ordspel/word-seance/?language\u003dsv",
@@ -820,6 +937,7 @@
       "hasBoosters": false
     },
     {
+      "id": 118,
       "name": "Yo-yo Jackpot",
       "short": "yoyo_jackpot",
       "url": "/spel/actionspel/yo-yo-jackpot/?language\u003dsv",

@@ -1,34 +1,35 @@
-import Header from '../templates/Header'
+import Header from '../templates/Header.js'
 import Home from '../pages/Home'
-import Character from '../pages/Character'
+import Game from '../pages/Game'
 import Error404 from '../pages/Error404'
-import getHash from '../services/getHash'
-import resolveRoutes from '../services/resolveRoutes'
+import { getHash, resolveRoutes } from '../services/router'
+import Favourites from '../pages/Favourites'
+
+// Initialize localStorage to save favGames
+localStorage.setItem(
+  'favGames',
+  localStorage.getItem('favGames') || JSON.stringify([])
+)
 
 const routes = {
   '/': Home,
-  '/:id': Character,
-  '/contact': 'Contact'
+  '/:id': Game,
+  '/favourites': Favourites,
 }
 
 const router = async () => {
   const header = null || document.querySelector('#header')
   const content = null || document.querySelector('#content')
 
-  header.innerHTML = await Header()
+  header.innerHTML = await Header.render()
+  await Header.after_render()
+
   let hash = getHash()
   let route = await resolveRoutes(hash)
-  console.log(route)
-  let render = routes[route] ? routes[route] : Error404
-  content.innerHTML = await render()
+
+  let page = routes[route] ? routes[route] : Error404
+  content.innerHTML = await page.render()
+  await page.after_render()
 }
 
 export default router
-
-// manejador mostrar los elementos según la lógica que vamos a establecer
-// obtener los valores del navegador para saber cual es la ruta en la que el usuario ha querido moverse
-// async await para esperar hasta que algo suceda para entonces ir continuando con nuestra aplicación.
-// establecer los templates que tenemos hacía un elemento del DOM
-// cuando trabajemos con las rutas debemos crear una función para obtener el hash para que cuando nos movamos a un personaje vamos a mandar un hash/id debemos obtener ese id para saber que personaje mandar
-
-// render la cual va contener el valor de las rutas que tenemos en routes comparada con la que obtenemos con la navegación del usuario
